@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log('hello')\n\n//# sourceURL=webpack://ts-leauge/./src/index.ts?");
+eval("throw new Error(\"Module parse failed: The keyword 'enum' is reserved (5:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| console.log('hvello')\\n| \\n> enum Color {\\n|     Red,\\n|     Green,\");\n\n//# sourceURL=webpack://ts-leauge/./src/index.ts?");
 
 /***/ })
 
@@ -24,7 +24,7 @@ eval("console.log('hello')\n\n//# sourceURL=webpack://ts-leauge/./src/index.ts?"
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
 /******/ 	var __webpack_exports__ = {};
 /******/ 	__webpack_modules__["./src/index.ts"]();
 /******/ 	
