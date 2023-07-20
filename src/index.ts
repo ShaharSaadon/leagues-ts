@@ -60,7 +60,7 @@ async function fetchTeamsByLeague(leagueName: string): Promise<IFootballTeam[]> 
     const response = await fetch(`${END_POINT}${leagueName}`);
     const data = await response.json();
 
-    if (Array.isArray(data.teams)) {
+    if (data?.teams) {
         return data.teams;
     } else {
         throw new Error('Invalid data format received from the server');
