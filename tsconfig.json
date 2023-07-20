@@ -5,6 +5,10 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "noImplicitAny":true,
+    "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
   }
 }
